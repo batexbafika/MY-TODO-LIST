@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 14em;
+    height: 16em;
+    margin-left: 36em;
+
+}
+
+div input[required]{
+   background-color:rgb(255, 255, 255);
+   border:0px;
+    outline: 0px;
+    margin-top: 3em;
+    width: 12em;
+    height: 3em;
+    border-radius:1em 1em;
+
+}
+
+.e{
+
+font-size: 2em;
+text-align: center;
+padding-left: 2em;
+text-wrap: nowrap;
+
+}
+
+#bg{
+
+ margin-bottom:3em;
+ background-color: rgb(255, 255, 255);
+ display: flex;
+ flex-direction: row;
+ border-radius: 1em 1em;
+}
+
+#form{
+
+width:25em;
+height: 16em;
+background-color: rgb(255, 174, 0);
+border-radius: 1em 1em;
+text-align:  center;
+z-index: 2;
+margin-top:5em;
+
+}
+
+button[onclick="addNewDiv()"]{
+
+margin-top: 3em;
+width: 6em;
+height: 3em;
+border-radius:1em 1em;
+background-color: rgb(250, 150, 37);
+
+
+}
+
+button[onclick="editDiv(this)"]{
+   background-color:blue;
+   border:0px;
+   outline:0px;
+   color:white;
+   border-radius: 1em 1em;
+   margin-top: 1em;
+   margin-left: 50em;
+   position: absolute;
+}
+
+button[onclick="deleteDiv(this)"]{
+   background-color:red;
+   border:0px;
+   outline:0px;
+   color:white;
+   border-radius: 1em 1em;
+   margin-top: 1em;
+   margin-left: 53em;
+   position: absolute;
+}
+
+#items{
+   width: 40em;
+   height: 20em;
+   margin-left: 22em;
+   margin-top: -12em;
+    
+}
+
+#openPop{
+
+    width:7em;
+    height: 3em;
+    border: 0px;
+    background-color: aqua;
+    outline: 0px;
+    border-radius:1em 1em;
+    margin-left: 48em;
+    position: absolute;
+    margin-top: -18em;
+}
+
+#openPop:hover{
+
+    width:7.1em;
+    height: 3.1em;
+    border: 0px;
+    background-color: rgb(85, 248, 248);
+    outline: 0px;
+    border-radius:1em 1em;
+}
+
+#openPop:active{
+    
+    width:7.1em;
+    height: 3.1em;
+    border: 0px;
+    background-color: rgba(85, 248, 248, 0.438);
+    outline: 0px;
+    border-radius:1em 1em;
+}
+
+

@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Divs</title>
+<link type="text/css" rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+
+<div class="container">
+    
+    <div id="form">
+        <input maxlength="16" type="text" id="input1" placeholder="item name" required>
+        <input type="date" id="input2" placeholder="Enter text" required><br>
+        <button onclick="addNewDiv()">Add</button>
+    </div>
+</div>
+
+<button id="openPop" onclick="OpenPop1()">New Todo</button>
+ <div id="items"></div>
+
+<script src="./javascript/app.js"></script>
+</body>
+</html>
